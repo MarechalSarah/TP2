@@ -1,13 +1,18 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background-color:cornsilk;
+    
 }
 
 #header
 {
-	background: #ccc;
+	background-color: cornflowerblue;
 	padding: 20px;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    border-radius: 18px;
 }
 
 #header h1 { margin: 0; }
@@ -52,9 +57,7 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color:azure;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -77,9 +80,9 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-gradient(linear, left top, right top, from(cornflowerblue), to(aliceblue));
+	background-image: -webkit-linear-gradient(left, blue, #dbfe7);
+	background-image: linear-gradient(left, blue, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
